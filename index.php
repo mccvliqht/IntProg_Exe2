@@ -16,7 +16,7 @@
     <header class="header">
         <a href="#" class="logo">Group 5</a>
 
-        
+        <span id="toggle-button">Dark Mode</span>
 
         <nav class="navbar">
             <a href="#anaya">Anaya</a>
@@ -182,7 +182,7 @@
         <div class="home-content">
             <h1>Hi, It's <span>Glen</span></h1>
             <h3 class="typing-text">I'm an <span>Aspiring Programmer</span></h3>
-            <p>     I am currently pursuing my degree in Bachelor of Science in Information Technology and In my free time, I like to study to further improve my knowledges and skills in programming. I also like comics and lifting to improve my overall health and entertain myself.</p>
+            <p>     I am currently pursuing my degree in Bachelor of Science in Information Technology and in my free time, I like to study to further improve my knowledges and skills in programming. I also like comics and lifting to improve my overall health and entertain myself.</p>
 
             <div class="social-icon">
                 <a href="https://www.linkedin.com/in/klarenz-glen-masuela-392496278/"><i class="fa-brands fa-linkedin"></i></a>
@@ -213,8 +213,8 @@
 
             <div class="info-box">
                 <div class="info">
-                    <h4>✨Jobless✨</h4>
-                    <P>No Jobs since birth</P>
+                <h4>No Job Experience</h4>
+                <P>No Prior proper Job experience until now</P>
                 </div>
             </div>
 

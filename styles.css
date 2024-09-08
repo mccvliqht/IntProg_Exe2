@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb {
     left: 0;
     width: 100%;
     padding: 3rem 9%;
-    background: rgba(0, 0, 0, 0.7);
+    background: var(--bg-color);
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
@@ -241,9 +241,6 @@ span {
 
 /* infoooo */
 
-.info {
-    background: var(--second-bg-color);
-}
 
 .info-container {
     display: grid;
