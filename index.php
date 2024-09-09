@@ -16,7 +16,8 @@
     <header class="header">
         <a href="#" class="logo">Group 5</a>
 
-        <span id="toggle-button">Dark Mode</span>
+        <!-- <span id="toggle-button">Dark Mode</span> -->
+        <button id="toggle-button">Dark Mode</button>
 
         <nav class="navbar">
             <a href="#anaya">Anaya</a>
@@ -26,7 +27,7 @@
             <a href="#yulip">Yulip</a>
         </nav>
     </header>
-    
+
     <section class="home" id="anaya">
         <div class="home-img">
             <img src="img/mic.png" alt="">
