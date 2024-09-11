@@ -19,6 +19,10 @@
         <!-- <span id="toggle-button">Dark Mode</span> -->
         <button id="toggle-button">Dark Mode</button>
 
+        <div class="greeting" id="toggle-button">
+            <?php include 'greeting.php'; ?>
+        </div>
+
         <nav class="navbar">
             <a href="#anaya">Anaya</a>
             <a href="#adam">Adam</a>
