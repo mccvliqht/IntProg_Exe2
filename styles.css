@@ -42,6 +42,11 @@ html::-webkit-scrollbar-thumb {
     background: var(--main-color);
 }
 
+.greeting {
+    padding: 20px;
+    text-align: center;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -84,7 +89,7 @@ html::-webkit-scrollbar-thumb {
     width: 90px;
     border-radius: 30px;
     cursor: pointer;
-    margin-left: 20%;
+    margin-left: 5%;
     transition: opacity 1s;
 }
 #toggle-button:hover{

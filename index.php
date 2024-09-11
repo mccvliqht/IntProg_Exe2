@@ -16,12 +16,13 @@
     <header class="header">
         <a href="#" class="logo">Group 5</a>
 
-        <!-- <span id="toggle-button">Dark Mode</span> -->
-        <button id="toggle-button">Dark Mode</button>
-
         <div class="greeting">
             <?php include 'greeting.php'; ?>
         </div>
+
+        <!-- <span id="toggle-button">Dark Mode</span> -->
+        <button id="toggle-button">Dark Mode</button>
+
 
         <nav class="navbar">
             <a href="#anaya">Anaya</a>
