@@ -5,7 +5,6 @@ $dbname = 'dbpersonal';
 $username = 'root';
 $password = ''; 
 
-// Create a new PDO instance
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -17,7 +16,6 @@ try {
         $recipient = htmlspecialchars($_POST['recipient']);
         $message = htmlspecialchars($_POST['message']);
 
-        // Prepare and execute the SQL statement
         $stmt = $pdo->prepare("INSERT INTO messages (name, email, recipient, message) VALUES (:name, :email, :recipient, :message)");
         $stmt->bindParam(':name', $name);
         $stmt->bindParam(':email', $email);
