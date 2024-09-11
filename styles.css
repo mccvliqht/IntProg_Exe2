@@ -350,7 +350,7 @@ span {
     border-radius: 0.5rem;
     padding: 1rem;
     font-size: 1.6rem;
-    color: var(--text-color);
+    color: #000000;
 }
 
 .form-group input:focus,
