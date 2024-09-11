@@ -86,7 +86,7 @@ html::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
     border: none;
     height: 30px;
-    width: 90px;
+    width: 150px;
     border-radius: 30px;
     cursor: pointer;
     margin-left: 5%;
