@@ -19,7 +19,7 @@
         <!-- <span id="toggle-button">Dark Mode</span> -->
         <button id="toggle-button">Dark Mode</button>
 
-        <div class="greeting" id="toggle-button">
+        <div class="greeting">
             <?php include 'greeting.php'; ?>
         </div>
 
