@@ -85,15 +85,20 @@ html::-webkit-scrollbar-thumb {
     color: white;
     background-color: var(--main-color);
     border: none;
-    height: 30px;
-    width: 150px;
+    height: 35px;
+    width: 130px;
     border-radius: 30px;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 2%;
     transition: opacity 1s;
+    font-size: 1.2rem;
 }
 #toggle-button:hover{
     opacity: 0.6;
+}
+
+.greeting {
+    font-size: 0.7rem;
 }
 
 .navbar a {
