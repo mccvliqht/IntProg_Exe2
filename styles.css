@@ -84,7 +84,7 @@ html::-webkit-scrollbar-thumb {
     width: 90px;
     border-radius: 30px;
     cursor: pointer;
-    margin-left: -20%;
+    margin-left: 20%;
     transition: opacity 1s;
 }
 #toggle-button:hover{
