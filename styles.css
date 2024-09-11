@@ -191,6 +191,7 @@ span {
 .home-img img {
     position: relative;
     width: 32vw;
+    height: 32vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -226,14 +227,6 @@ span {
     transform: scale(1.3)translateY(-5px);
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
-}
-
-#yulip .home-img img {
-    height: 423px;
-}
-
-#masuela .home-img img {
-    height: 423px;
 }
 
 @media (max-width:000px) {
