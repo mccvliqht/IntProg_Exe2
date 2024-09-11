@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Manila'); // Set timezone
+date_default_timezone_set('Asia/Manila');
 
 $hour = date('H');
 
