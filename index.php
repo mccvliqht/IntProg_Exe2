@@ -297,6 +297,7 @@
                 <div class="form-group">
                     <label for="recipient">Recipient:</label>
                     <select id="recipient" name="recipient" required>
+                        <option value="blank"></option>
                         <option value="anaya">Anaya</option>
                         <option value="adam">Adam</option>
                         <option value="delantar">Delantar</option>
